@@ -1,5 +1,3 @@
-		<?php
-		echo "
 		<span class="nav-toggle">
               <span></span>
               <span></span>
@@ -17,6 +15,4 @@
               </a>
               <a class="nav-item">
                 Contact
-              </a>"
-			  ?>
-			  
+              </a>
