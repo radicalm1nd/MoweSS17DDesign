@@ -93,6 +93,10 @@ body {
 	background-color: #292929;
 }
 
+.card-image {
+	    transition: opacity 500ms;
+}
+
 .card-image:hover{
 	opacity: 0.5;
 }
