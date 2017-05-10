@@ -84,3 +84,16 @@ body {
   color: #95A5A6;
   font-weight: bold;
 }
+
+.column {
+	    padding: 0.02rem;
+}
+
+.card {
+	background-color: #292929;
+}
+
+.card-image:hover{
+	opacity: 0.5;
+}
+
