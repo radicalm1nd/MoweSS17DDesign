@@ -113,4 +113,64 @@
         "name": "Base"
       }
     ]
-  }]
+  },
+  {
+    "image": "https://www.vaporized.co.uk/wp-content/uploads/2014/09/4-IMG_1507.jpg",
+    "name": "Rogue Sucka Punch",
+    "bottle-size": 10,
+    "author": "©ADV sicilianenzo",
+    "pg": 20,
+    "vg": 80,
+    "steeping": 10,
+    "categories": [
+      {
+        "Name": "Cloned",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/cloned/"
+      },
+      {
+        "Name": "Fruits",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/fruits/"
+      }
+    ],
+    "brand": "Rogue",
+    "brandURL": "https://radicalm1nd.github.io/MoweSS17DDesign/brand/rogue/",
+    "flavors": [
+      {
+        "amount": 0.2,
+        "name": "Double Apple CA",
+        "URL": "http://amzn.to/2qZHOZn",
+        "brand": "CA"
+      },
+      {
+        "amount": 0.24,
+        "name": "Peach Juicy TPA",
+        "URL": "http://amzn.to/2pwDDmN",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.2,
+        "name": "Strawberry Ripe TPA",
+        "URL": "http://amzn.to/2qZL5rx",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.26,
+        "name": "Sweet Strawberry CA",
+        "URL": "http://amzn.to/2qrdavH",
+        "brand": "CA"
+      },
+      {
+        "amount": 0.6,
+        "name": "White Peach FA",
+        "URL": "http://www.ecigexpress.com/diy-e-liquid/browse-flavorings/fruit-flavors/white-peach-by-flavourart.html",
+        "brand": "FA"
+      }
+    ],
+    "base": [
+      {
+        "amount": 8.55,
+        "name": "Base"
+      }
+    ]
+  }
+]
