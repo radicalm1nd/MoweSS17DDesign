@@ -7,46 +7,50 @@
   "vg": 80,
   "steeping": 10,
   "categories": [
-    "Les Clones",
-    "Les Fruités"
+    {
+      "Name": "Les Clones",
+      "URL": "https://www.lediypourlesnuls.com/style/les-clones/"
+    },
+    {
+      "Name": "Les Fruités",
+      "URL": "https://www.lediypourlesnuls.com/style/les-fruites/"
+    }
   ],
   "brand": "Ruthless Vapor",
   "brandURL": "https://www.lediypourlesnuls.com/fabricant/ruthless-vapor/",
-  "ingredients": [
-    "flavors": [
-      [
+  "flavors": [
+      {
         "amount": 1.3,
         "name": "Pineapple PA",
-        "URL": "http://www.vapotestyle.fr/aromes-perfumer-s-apprentice-10-ml/910-arome-pineapple-flavor.html"
+        "URL": "http://www.vapotestyle.fr/aromes-perfumer-s-apprentice-10-ml/910-arome-pineapple-flavor.html",
         "brand": "PA"
-      ],
-      [
+      },
+      {
         "amount": 0.5,
         "name": "Mango PA",
-        "URL": "http://www.evaps.fr/details-produit.mango-perfumer-s-apprentice-copie.html"
+        "URL": "http://www.evaps.fr/details-produit.mango-perfumer-s-apprentice-copie.html",
         "brand": "PA"
-      ],
-      [
+      },
+      {
         "amount": 0.4,
         "name": "Coconut PA",
-        "URL": "http://www.evaps.fr/details-produit.coconut-perfumer-s-apprentice.html"
+        "URL": "http://www.evaps.fr/details-produit.coconut-perfumer-s-apprentice.html",
         "brand": "PA"
-      ]
+      }
     ],
     "additives": [
-      [
+      {
         "amount": 0.14,
         "name": "Sweetener",
         "URL": "http://www.evaps.fr/details-produit.sweetener-perfumer-apprentice.html"
-      ]
+      }
     ],
     "base": [
-      [
+      {
         "amount": 7.66,
         "name": "Base",
         "URL": "https://www.lediypourlesnuls.com/ingr%C3%A9dient/base/"
-      ]
+      }
     ]
-  ]
 }
 
