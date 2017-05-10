@@ -4,7 +4,7 @@ body {
 }
 .is-dark {
   background-color: #F62459;
-  background-image: linear-gradient(rgba(25, 181, 254, 0.6),rgba(246, 36, 89, 0.6)),linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('https://vapemagazine.com/wp-content/uploads/2015/07/What-are-the-Dangers-of-Vaping.jpg');
+  background-image: linear-gradient(rgba(25, 181, 254, 0.6),rgba(246, 36, 89, 0.6)),linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('http://archive.jsonline.com/Services/image.ashx?domain=www.jsonline.com&file=b99600266z.1_20151020175900_000_gd5d19se.2-0.jpg&resize=');
 }
 .nav {
   padding: 20px 0;
