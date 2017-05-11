@@ -7,17 +7,17 @@ $( document ).ready(function() {
 		var dataNum = data.length;
 		var counter = 1;
 		$.each(data, function (i, item) {
-		imageURL = data[i].image;
-		imageName = data[i].name;
-		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
-		$("#cardIMG").attr("src", imageURL);
-		$("#cardIMG").attr("alt", imageName);
-		if (i%4 == 0) {
-			 $("#mainRecipes").append("</div><div class='columns'>");
-		} 
-		counter ++;
-	})
+			imageURL = data[i].image;
+			imageName = data[i].name;
+			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
+			$("#cardIMG").attr("src", imageURL);
+			$("#cardIMG").attr("alt", imageName);
+			if (counter%4 == 0) {
+				$("#mainRecipes").append("</div><div class='columns'>");
+			} 
+			counter ++;
 		})
+	})
 
 });
 	
