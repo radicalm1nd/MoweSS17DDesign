@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 	
 	$("#mainRecipes").html(" ");
-	var imageURL = []
-	var imageName =[]
+	var imageURL = [];
+	var imageName =[];
     $.getJSON( "data/beispielrezept.json", function( data ) {
 	for (i=0;6; i++) {
 		imageURL = data[i].image;
@@ -10,8 +10,8 @@ $( document ).ready(function() {
 		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
 		$("#cardIMG").attr("src", imageURL[i]);
 		$("#cardIMG").attr("alt", imageName[i]);
-		consol.log(imageURL);
-		consol.log(imageName);
+		console.log(imageURL);
+		console.log(imageName);
 		if (i%4 == 0) {
 			 $("#mainRecipes").append("</div><div class='columns'>");
 		} 
