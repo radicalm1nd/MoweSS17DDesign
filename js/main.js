@@ -4,7 +4,9 @@ $( document ).ready(function() {
 	var imageURL = [];
 	var imageName =[];
     $.getJSON( "data/beispielrezept.json").done(function(data) {
-				for (i=0;data.length; i++) {
+		var dataNum = data.length;
+		var counter = 1;
+		$.each(data, function (i, item) {
 		imageURL = data[i].image;
 		imageName = data[i].name;
 		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
@@ -13,6 +15,7 @@ $( document ).ready(function() {
 		if (i%4 == 0) {
 			 $("#mainRecipes").append("</div><div class='columns'>");
 		} 
+		counter ++;
 	}
 		})
 
