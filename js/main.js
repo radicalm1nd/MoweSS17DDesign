@@ -11,7 +11,7 @@ $( document ).ready(function() {
 		        <div class='card'>
           <div class='card-image'>
             <figure class='image is-4by3'>
-              <img id="cardIMG">
+              <img id='cardIMG'>
             </figure>
           </div>
         </div>
