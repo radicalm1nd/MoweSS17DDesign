@@ -9,7 +9,7 @@ $( document ).ready(function() {
 		$.each(data, function (i, item) {
 			imageURL = data[i].image;
 			imageName = data[i].name;
-			$("current").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
+			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
 			if ((counter+1)%4 == 0) {
 				current = "#mainRecipes2";
 			} 
