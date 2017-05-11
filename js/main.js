@@ -3,10 +3,10 @@ $( document ).ready(function() {
 	$("#mainRecipes").html(" ");
 	var imageURL = [];
 	var imageName =[];
-    $.getJSON( "data/beispielrezept.json", function( data ) {
+    $.getJSON( "data/beispielrezept.json", function() {
 		console.log( "success" );
 	})
-		.done(function() {
+		.done(function(data) {
 				for (i=0;data.length; i++) {
 		imageURL = data[i].image;
 		imageName = data[i].name;
