@@ -8,9 +8,10 @@ $( document ).ready(function() {
 		imageURL = data[i].image;
 		imageName = data[i].name;
 		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
-		$("#cardIMG").attr("src", imageURL);
-		$("#cardIMG").attr("alt", imageName);
-		
+		$("#cardIMG").attr("src", imageURL[i]);
+		$("#cardIMG").attr("alt", imageName[i]);
+		consol.log(imageURL);
+		consol.log(imageName);
 		if (i%4 == 0) {
 			 $("#mainRecipes").append("</div><div class='columns'>");
 		} 
