@@ -299,7 +299,67 @@
     ],
     "base": [
       {
-        "amount": 8,
+        "amount": 8.25,
+        "name": "Base"
+      }
+    ]
+  },
+  {
+    "image": "http://www.cloudzvapour.com/wp-content/uploads/2015/08/12monkeys__0013_12M_TPD_Kanzi_SQ_EN.jpg",
+    "name": "Twelve Monkeys Vapor Co. Kanzi",
+    "bottle-size": 10,
+    "author": "©Admin",
+    "pg": 50,
+    "vg": 50,
+    "steeping": 10,
+    "categories": [
+      {
+        "Name": "Cloned",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/cloned/"
+      },
+      {
+        "Name": "Fruits",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/fruits/"
+      }
+    ],
+    "brand": "Twelve Monkeys Vapor Co.",
+    "brandURL": "https://radicalm1nd.github.io/MoweSS17DDesign/brand/twelve-monkeys-vapor-co/",
+    "flavors": [
+      {
+        "amount": 0.1,
+        "name": "Kiwi Double TPA",
+        "URL": "http://amzn.to/2pAzgae",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.3,
+        "name": "Strawberry Ripe TPA",
+        "URL": "http://amzn.to/2r4VdQG",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.5,
+        "name": "Strawberry TPA",
+        "URL": "http://amzn.to/2r56Xmk",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.6,
+        "name": "Sweet Watermelon CA",
+        "URL": "http://amzn.to/2pB9CBY",
+        "brand": "CA"
+      }
+    ],
+    "additives": [
+      {
+        "amount": 0.4,
+        "name": "Sweetener",
+        "URL": "http://amzn.to/2pw2Tcw"
+      }
+    ],
+    "base": [
+      {
+        "amount": 8.1,
         "name": "Base"
       }
     ]
