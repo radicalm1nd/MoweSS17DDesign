@@ -4,7 +4,7 @@ $( document ).ready(function() {
 	var imageURL = [];
 	var imageName =[];
     $.getJSON( "data/beispielrezept.json", function( data ) {
-	for (i=0;6; i++) {
+	for (i=1;data.length; i++) {
 		imageURL = data[i].image;
 		imageName = data[i].name;
 		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
