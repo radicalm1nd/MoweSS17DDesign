@@ -5,13 +5,11 @@ $( document ).ready(function() {
 	var imageName = "";
     $.getJSON( "data/beispielrezept.json").done(function(data) {
 		var dataNum = data.length;
-		var counter = 1;
+		var counter = 0;
 		$.each(data, function (i, item) {
 			imageURL = data[i].image;
 			imageName = data[i].name;
 			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
-			$("#cardIMG").attr("src", imageURL);
-			$("#cardIMG").attr("alt", imageName);
 			if (counter%4 == 0) {
 				$("#mainRecipes").append("</div><div class='columns'>");
 			} 
