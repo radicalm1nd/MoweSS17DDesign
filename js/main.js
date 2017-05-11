@@ -1,6 +1,5 @@
 $( document ).ready(function() {
 	
-	if (window.location.href.indexOf("index.html") > -1) { //if mainpage
 	$("#mainRecipes").html(" ");
     $.getJSON( "data/beispielrezept.json", function( data ) {
 	for (i=0; i<data.length; i++) {
@@ -19,7 +18,7 @@ $( document ).ready(function() {
 		$("#cardIMG").attr("alt", imageName);
 	}
 	});
-};
+
 });
 	
 
