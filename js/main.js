@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 	
 	$("#mainRecipes").html(" ");
-	var imageURL = ;
-	var imageName =;
+	var imageURL = "";
+	var imageName = "";
     $.getJSON( "data/beispielrezept.json").done(function(data) {
 		var dataNum = data.length;
 		var counter = 1;
