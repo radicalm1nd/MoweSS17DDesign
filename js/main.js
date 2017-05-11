@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-	
-	$("#mainRecipes").html(" ");
+	var current ="#mainRecipes";
+	$(current).html(" ");
 	var imageURL = "";
 	var imageName = "";
     $.getJSON( "data/beispielrezept.json").done(function(data) {
@@ -10,8 +10,8 @@ $( document ).ready(function() {
 			imageURL = data[i].image;
 			imageName = data[i].name;
 			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
-			if (counter==3) {
-				$("#mainRecipes").append("</div><div class='columns'>");
+			if ((counter+1)%4 == 0) {
+				current = "#mainRecipes2";
 			} 
 			counter ++;
 		})
