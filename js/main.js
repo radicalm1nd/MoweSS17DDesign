@@ -10,7 +10,7 @@ $( document ).ready(function() {
 			imageURL = data[i].image;
 			imageName = data[i].name;
 			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
-			if (counter%4 == 0) {
+			if (counter==3) {
 				$("#mainRecipes").append("</div><div class='columns'>");
 			} 
 			counter ++;
