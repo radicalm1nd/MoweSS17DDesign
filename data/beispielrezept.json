@@ -3,7 +3,7 @@
     "image": "https://www.vaporized.co.uk/wp-content/uploads/2014/09/4-IMG_1507.jpg",
     "name": "Ruthless Vapor Jungle Fever",
     "bottle-size": 10,
-    "author": "©EvilGenius",
+    "author": "©Admin",
     "pg": 20,
     "vg": 80,
     "steeping": 10,
@@ -58,7 +58,7 @@
     "image": "http://static.webshopapp.com/shops/034072/files/069807656/cosmic-fog-sonrise-30ml-by-cosmic-fog.jpg",
     "name": "Cosmic Fog Sonrise",
     "bottle-size": 10,
-    "author": "©Dimosthenesgio",
+    "author": "©Admin",
     "pg": 50,
     "vg": 50,
     "steeping": 10,
@@ -103,8 +103,9 @@
     "additives": [
       {
         "amount": 0.2,
-        "name": "Sweetener",
-        "URL": "http://amzn.to/2pw2Tcw"
+        "name": "Sweetener TPA",
+        "URL": "http://amzn.to/2pw2Tcw",
+        "brand": "TPA"
       }
     ],
     "base": [
@@ -118,7 +119,7 @@
     "image": "https://static1.squarespace.com/static/56578640e4b0e19716ffecbb/t/584ae88803596eedb2f310aa/1481304215646/?format=750w",
     "name": "Rogue Sucka Punch",
     "bottle-size": 10,
-    "author": "©ADV sicilianenzo",
+    "author": "©Admin",
     "pg": 20,
     "vg": 80,
     "steeping": 10,
@@ -169,6 +170,136 @@
     "base": [
       {
         "amount": 8.55,
+        "name": "Base"
+      }
+    ]
+  },
+  {
+    "image": "https://cdn.lediypourlesnuls.com/wp-content/uploads/2017/02/Naked-100-Frost-Bite.jpg",
+    "name": "Naked 100 Frost Bite",
+    "bottle-size": 10,
+    "author": "©Admin",
+    "pg": 30,
+    "vg": 70,
+    "steeping": 10,
+    "categories": [
+      {
+        "Name": "Cloned",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/cloned/"
+      },
+      {
+        "Name": "Fruits",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/fruits/"
+      }
+    ],
+    "brand": "Naked 100",
+    "brandURL": "https://radicalm1nd.github.io/MoweSS17DDesign/brand/naked-100/",
+    "flavors": [
+      {
+        "amount": 0.5,
+        "name": "Cantaloupe TPA",
+        "URL": "http://amzn.to/2q5XjBu",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.3,
+        "name": "Cool Mint CA",
+        "URL": "http://amzn.to/2r3ir97",
+        "brand": "CA"
+      },
+      {
+        "amount": 1.5,
+        "name": "Golden Pineapple CA",
+        "URL": "http://amzn.to/2r4LgTr",
+        "brand": "CA"
+      },
+      {
+        "amount": 0.5,
+        "name": "Honeydew TPA",
+        "URL": "http://amzn.to/2q64Ks0",
+        "brand": "TPA"
+      }
+    ],
+    "base": [
+      {
+        "amount": 7.20,
+        "name": "Base"
+      }
+    ]
+  },
+  {
+    "image": "https://cdn.lediypourlesnuls.com/wp-content/uploads/2017/02/Vaper-Treats-The-Cupcake-Man.jpg",
+    "name": "Vaper Treats The Cupcake Man",
+    "bottle-size": 10,
+    "author": "©Admin",
+    "pg": 50,
+    "vg": 50,
+    "steeping": 15,
+    "categories": [
+      {
+        "Name": "Cloned",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/cloned/"
+      },
+      {
+        "Name": "Fresh",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/fruits/"
+      },
+      {
+        "Name": "Biscuit",
+        "URL": "https://radicalm1nd.github.io/MoweSS17DDesign/categories/biscuit/"
+      }
+    ],
+    "brand": "Vaper Treats",
+    "brandURL": "https://radicalm1nd.github.io/MoweSS17DDesign/brand/vaper-treats/",
+    "flavors": [
+      {
+        "amount": 0.1,
+        "name": "Butter Cream CA",
+        "URL": "http://amzn.to/2r5istS",
+        "brand": "CA"
+      },
+      {
+        "amount": 0.2,
+        "name": "Strawberry Ripe TPA",
+        "URL": "http://amzn.to/2r4VdQG",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.15,
+        "name": "Sweet Strawberry CA",
+        "URL": "http://amzn.to/2qrdavH",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.3,
+        "name": "Vanilla Bean Ice Cream TPA",
+        "URL": "http://amzn.to/2pAGvPw",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.7,
+        "name": "Vanilla Cupcake CA",
+        "URL": "http://amzn.to/2pAGoU6",
+        "brand": "TPA"
+      },
+      {
+        "amount": 0.1,
+        "name": "Vanilla Whipped Cream CA",
+        "URL": "http://amzn.to/2pCrld8",
+        "brand": "CA"
+      }
+    ],
+    "additives": [
+      {
+        "amount": 0.2,
+        "name": "Sweetener TPA",
+        "URL": "http://amzn.to/2pw2Tcw",
+        "brand": "TPA"
+      }
+    ],
+    "base": [
+      {
+        "amount": 8,
         "name": "Base"
       }
     ]
