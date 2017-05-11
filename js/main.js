@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-	var current ="#mainRecipes";
 	$(current).html(" ");
 	var imageURL = "";
 	var imageName = "";
@@ -11,7 +10,7 @@ $( document ).ready(function() {
 			imageName = data[i].name;
 			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
 			if (counter>4) {
-				current = "#mainRecipes2";
+				$("#mainRecipes") = $("#mainRecipes2");
 			} 
 			counter ++;
 		})
