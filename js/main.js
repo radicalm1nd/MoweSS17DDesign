@@ -16,7 +16,7 @@ $( document ).ready(function() {
 			 $("#mainRecipes").append("</div><div class='columns'>");
 		} 
 		counter ++;
-	}
+	})
 		})
 
 });
