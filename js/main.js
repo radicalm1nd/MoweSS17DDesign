@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 	
 	$("#mainRecipes").html(" ");
-	var imageURL = ""
-	var imageName = ""
+	var imageURL = []
+	var imageName =[]
     $.getJSON( "data/beispielrezept.json", function( data ) {
 	for (i=0;6; i++) {
 		imageURL = data[i].image;
