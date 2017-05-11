@@ -6,17 +6,15 @@ $( document ).ready(function() {
 	for (i=0; i<data.length; i++) {
 		var imageURL = data[i].image;
 		var imageName = data[i].name;
-		$("#mainRecipes").append("
-		<div class='column is-3'>
-		        <div class='card'>
-          <div class='card-image'>
-            <figure class='image is-4by3'>
-              <img id='cardIMG'>
-            </figure>
-          </div>
-        </div>
-      </div>
-		");
+		$("#mainRecipes").append("<div class='column is-3'>");
+								   .append("<div class='card'>");
+                                   .append("<div class='card-image'>");
+                                   .append<figure class='image is-4by3'>");
+                                   .append<img id='cardIMG'>");
+                                   .append</figure>");
+                                   .append</div>");
+                                   .append</div>");
+                                   .append</div>");
 		$("#cardIMG").attr("src", imageURL);
 		$("#cardIMG").attr("alt", imageName);
 	}
