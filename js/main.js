@@ -9,12 +9,12 @@ $( document ).ready(function() {
 		$("#mainRecipes").append("<div class='column is-3'>")
 								   .append("<div class='card'>")
                                    .append("<div class='card-image'>")
-                                   .append<figure class='image is-4by3'>")
-                                   .append<img id='cardIMG'>")
-                                   .append</figure>")
-                                   .append</div>")
-                                   .append</div>")
-                                   .append</div>");
+                                   .append("<figure class='image is-4by3'>")
+                                   .append("<img id='cardIMG'>")
+                                   .append("</figure>")
+                                   .append("</div>")
+                                   .append("</div>")
+                                   .append("</div>");
 		$("#cardIMG").attr("src", imageURL);
 		$("#cardIMG").attr("alt", imageName);
 	}
