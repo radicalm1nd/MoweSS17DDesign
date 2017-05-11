@@ -1,13 +1,19 @@
 $( document ).ready(function() {
 	
 	$("#mainRecipes").html(" ");
+	var imageURL = ""
+	var imageName = ""
     $.getJSON( "data/beispielrezept.json", function( data ) {
 	for (i=0; i<data.length; i++) {
-		var imageURL = data[i].image;
-		var imageName = data[i].name;
+		imageURL = data[i].image;
+		imageName = data[i].name;
 		$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG'></figure></div></div></div>")
 		$("#cardIMG").attr("src", imageURL);
 		$("#cardIMG").attr("alt", imageName);
+		
+		/*if (i%4 == 0) {
+			 $("#mainRecipes").append("</div><div class='columns'>");
+		} */
 	}
 	});
 
