@@ -1,21 +1,25 @@
 $( document ).ready(function() {
-	$(current).html(" ");
 	var imageURL = "";
 	var imageName = "";
     $.getJSON( "data/beispielrezept.json").done(function(data) {
-		var dataNum = data.length;
+		//var dataNum = data.length;
 		var counter = 0;
+		var recipeMain = '<div class="columns mainRecipes" >';
+		$("#recipes").html(" ");
 		$.each(data, function (i, item) {
+			while(counter<4);
 			imageURL = data[i].image;
 			imageName = data[i].name;
-			$("#mainRecipes").append("<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>")
-			if (counter>4) {
-				$("#mainRecipes") = $("#mainRecipes2");
-			} 
+			recipeMain += '<div class="column is-3"><div class="card"><div class="card-image"><figure class="image is-4by3"><img class="cardIMG" src="';
+			recipeMain+= imageURL;
+			recipeMain+='"></figure></div></div></div>';
 			counter ++;
+			if (counter % 4 == 0) {
+			recipeMain +=	'</div><div class="columns mainRecipes">'
+			}
 		})
 	})
-
+	$("#recipes").append(recipeMain);
 });
 	
 
@@ -40,6 +44,20 @@ $( document ).ready(function() {
 	
 	
 	/*
+	
+	
+	
+	
+	
+	    <div class="columns" id="mainRecipes">
+	
+	
+	
+	
+	
+	
+	
+	
 	
         <div class="card">
           <div class="card-image">
