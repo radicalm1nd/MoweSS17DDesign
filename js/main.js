@@ -18,9 +18,9 @@ $( document ).ready(function() {
 			}
 			}
 		})
-	})
 	$("#recipes").html(" ");
 	$("#recipes").append(recipeMain);
+	})
 });
 	
 
