@@ -11,7 +11,7 @@ $( document ).ready(function() {
 			imageURL = data[i].image;
 			imageName = data[i].name;
 			recipeMain += '<div class="column is-3"><div class="card"><div class="card-image"><figure class="image is-4by3">';
-			recipeMain+= '<img class="cardIMG" src='"+imageURL+"'></figure>'
+			recipeMain+= '<img class="cardIMG" src="+imageURL+"></figure>'
 			recipeMain+='</div></div></div>';
 			counter ++;
 			if (counter % 4 == 0) {
