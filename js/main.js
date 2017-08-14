@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	$(current).html(" ");
+	//$(current).html(" ");
 	var imageURL = "";
 	var imageName = "";
     $.getJSON( "data/beispielrezept.json").done(function(data) {
