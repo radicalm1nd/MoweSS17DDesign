@@ -4,16 +4,16 @@ $( document ).ready(function() {
     $.getJSON( "data/beispielrezept.json").done(function(data) {
 		var dataNum = data.length;
 		var counter = 0;
-		var recipeMain = '<div class="columns" id="mainRecipes">';
+		var recipeMain = '<div class="columns mainRecipes" >';
 		$("#recipes").html(" ");
 		$.each(data, function (i, item) {
 			while(counter<4);
 			imageURL = data[i].image;
 			imageName = data[i].name;
-			recipeMain += "<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>"
+			recipeMain += '<div class='column is-3'><div class='card'><div class='card-image'><figure class='image is-4by3'><img id='cardIMG' src='"+imageURL+"'></figure></div></div></div>'
 			counter ++;
 			if (counter % 4 == 0) {
-				</div><div class="columns" id="mainRecipes">
+			recipeMain +=	'</div><div class="columns mainRecipes">'
 			}
 		})
 	})
