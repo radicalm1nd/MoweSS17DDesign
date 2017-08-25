@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://www.vaporized.co.uk/wp-content/uploads/2014/09/4-IMG_1507.jpg",
+    "image": "./img/1.jpg",
     "name": "Ruthless Vapor Jungle Fever",
     "bottle-size": 10,
     "author": "©Admin",
@@ -55,7 +55,7 @@
   },
 
   {
-    "image": "http://static.webshopapp.com/shops/034072/files/069807656/cosmic-fog-sonrise-30ml-by-cosmic-fog.jpg",
+    "image": "./img/2.jpg",
     "name": "Cosmic Fog Sonrise",
     "bottle-size": 10,
     "author": "©Admin",
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "image": "https://static1.squarespace.com/static/56578640e4b0e19716ffecbb/t/584ae88803596eedb2f310aa/1481304215646/?format=750w",
+    "image": "./img/3.jpg",
     "name": "Rogue Sucka Punch",
     "bottle-size": 10,
     "author": "©Admin",
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "image": "https://cdn.lediypourlesnuls.com/wp-content/uploads/2017/02/Naked-100-Frost-Bite.jpg",
+    "image": "./img/5.jpg",
     "name": "Naked 100 Frost Bite",
     "bottle-size": 10,
     "author": "©Admin",
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "image": "https://cdn.lediypourlesnuls.com/wp-content/uploads/2017/02/Vaper-Treats-The-Cupcake-Man.jpg",
+    "image": "./img/6.jpg",
     "name": "Vaper Treats The Cupcake Man",
     "bottle-size": 10,
     "author": "©Admin",
@@ -305,7 +305,7 @@
     ]
   },
   {
-    "image": "http://www.cloudzvapour.com/wp-content/uploads/2015/08/12monkeys__0013_12M_TPD_Kanzi_SQ_EN.jpg",
+    "image": "./img/4.jpg",
     "name": "Twelve Monkeys Vapor Co. Kanzi",
     "bottle-size": 10,
     "author": "©Admin",
@@ -365,7 +365,7 @@
     ]
   },
   {
-    "image": "http://www.cloudzvapour.com/wp-content/uploads/2015/08/12monkeys__0013_12M_TPD_Kanzi_SQ_EN.jpg",
+    "image": "./img/1.jpg",
     "name": "Twelve Monkeys Vapor Co. Kanzi",
     "bottle-size": 10,
     "author": "©Admin",
@@ -425,7 +425,7 @@
     ]
   },
   {
-    "image": "http://www.cloudzvapour.com/wp-content/uploads/2015/08/12monkeys__0013_12M_TPD_Kanzi_SQ_EN.jpg",
+    "image": "./img/2.jpg",
     "name": "Twelve Monkeys Vapor Co. Kanzi",
     "bottle-size": 10,
     "author": "©Admin",
@@ -485,7 +485,7 @@
     ]
   },
   {
-    "image": "http://www.cloudzvapour.com/wp-content/uploads/2015/08/12monkeys__0013_12M_TPD_Kanzi_SQ_EN.jpg",
+    "image": "./img/5.jpg",
     "name": "Twelve Monkeys Vapor Co. Kanzi",
     "bottle-size": 10,
     "author": "©Admin",

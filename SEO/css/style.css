@@ -1,0 +1,40 @@
+html {
+	font: 16px Arial, sans-serif;
+	background: #0055a4;
+	height: 100%;
+}
+body {
+	background: white;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+header {
+	width: 100%;
+	height: 14.375rem;
+}
+header img {
+	display: block;
+	margin: 0 auto;
+	padding: 1rem 0;
+}
+main {
+	flex-grow: 1;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.mydiv {
+	margin: 0 1rem;
+}
+iframe {
+	border: none;
+	flex-grow: 1;
+	margin: 0 1rem;
+	padding: 0;
+}
+footer {
+	margin: 1rem;
+}
