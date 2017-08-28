@@ -79,5 +79,8 @@ if($showFormular) {
 } //Ende von if($showFormular)
 ?>
 
+<p><a href="http://radicalm1nd.de/projects/vape/" title="Startseite">← Zurück zur Startseite</a></p>
+
+
 </body>
 </html>

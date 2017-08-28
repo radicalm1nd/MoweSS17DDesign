@@ -40,11 +40,14 @@ if(isset($errorMessage)) {
     Dein Passwort:<br>
     <input type="password" size="40"  maxlength="250" name="passwort"><br>
 
-    <input type="submit" value="Abschicken">
+    <input type="submit" value="Abschicken"><br>
+    Kein Account? <a href="signup.php" title="registrieren">Registrieren</a>
 </form><br><br>
 
 <p><b>Testnutzer:</b><br>
 bajon.david@googlemail.com<br>
 PW: passwort1</p>
+
+<p><a href="http://radicalm1nd.de/projects/vape/" title="Startseite">← Zurück zur Startseite</a></p>
 </body>
 </html>

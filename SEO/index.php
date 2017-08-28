@@ -23,7 +23,7 @@
 			<p>
 				Dies ist eine super coole Seite! Nur leider nicht SEO-optimiert :( Könnt ihr mir helfen?
 			</p>
-			<p>Hier ein Link: <a href="seo.php">Klick mich!</a></p>
+			<p>Hier ein Link: <a href="seo.php" title="Klick mich!">Klick mich!</a></p>
 		</div>
 		<!-- Div id "mydiv" wurde 2x benutzt. Deswegen hier und in CSS zu Class geändert -->
 		<div class="mydiv">

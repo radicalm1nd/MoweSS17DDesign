@@ -51,7 +51,7 @@
   
       <div class="column is-8">
 	  <a name="galHead"></a>
-        <h2 class="title">Gallery</h2>
+        <h2 class="title">Rezepte</h2>
       </div>
 
 

@@ -27,7 +27,6 @@
       <div class="container">
         <div class="tabs is-centered">
           <ul>
-            <a href="#galHead"><li><img src="img/arrow.png"></li></a>
           </ul>
         </div>
       </div>

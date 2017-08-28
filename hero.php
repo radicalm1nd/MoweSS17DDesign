@@ -3,7 +3,7 @@
         <nav class="nav">
           <div class="container">
             <div class="nav-left">
-              <a class="nav-item" href="../index.php">
+              <a class="nav-item" href="http://radicalm1nd.de/projects/vape/">
                 VAPE RECIPES
               </a>
 				<span class="nav-toggle">
